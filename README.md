@@ -18,7 +18,9 @@ Install `gmake` by running the following command in your shell.
 go get github.com/joshi4/gmake
 ~~~
 
-To install `go` and setup the work environment see [this link](https://golang.org/doc/install#install) Make sure you've set the `GOPATH` variable correctly :)
+To install `go` and setup the work environment see [this link](https://golang.org/doc/install#install).
+
+**NOTE:** Make sure you've set the `GOPATH` variable correctly :)
 
 ## Motivation
 
