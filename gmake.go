@@ -29,13 +29,13 @@ func main() {
 	cwd, err := os.Getwd()
 	if err != nil {
 		// hail mary
-		execMake(args, cwd)
+		execMake(args, cwd, "")
 		return
 	}
 
 	cu, err := user.Current()
 	if err != nil {
-		execMake(args, cwd)
+		execMake(args, cwd, "")
 		return
 	}
 
