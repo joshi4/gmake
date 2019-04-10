@@ -20,7 +20,7 @@ var fileToCommand = map[string]string{
 	GNUMakefile: "make",
 	Makefile:    "make",
 	makefile:    "make",
-	makeSh:      "make.sh",
+	makeSh:      "./make.sh",
 }
 
 func main() {
