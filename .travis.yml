@@ -1,12 +1,12 @@
 language: go
 go:
-  - 1.9.2
+  - 1.11.0
 
 script:
   make test &&
   mkdir -p ./test/nested/dir &&
   cd ./test/nested/dir &&
-  ./gmake test
+  ./rmake test
 
 notifications:
   email: false
